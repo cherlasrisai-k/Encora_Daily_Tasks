@@ -3,8 +3,13 @@ name: Spring Boot CI
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - '16th-Oct-2025/**'
+
   pull_request:
     branches: [ "main" ]
+    paths:
+      - '16th-Oct-2025/**'
 
 jobs:
   build:
