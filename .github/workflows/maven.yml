@@ -37,6 +37,3 @@ jobs:
       run: |
         cd 16th-Oct-2025/SBSecurity
         mvn clean verify
-
-    - name: Run tests
-      run: mvn test
